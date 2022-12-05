@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+main {
+    width: 325px;
+    margin: 8rem auto;
+    border-radius: 10px;
+}
+
+.card {
+    padding: 3rem;
+
+}
+
+.icon {
+    margin-bottom: 2rem;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 1.75;
+    margin-bottom: 2rem;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 1rem 2rem;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 30px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.sedan button {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv button{
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+@media screen and (min-width: 1000px) {
+    main {
+        display: flex;
+        width: 950.4px;
+    }
+
+    .card {
+        padding: 3.4rem;
+    }
+
+    .icon {
+        margin-bottom: 2.5rem;
+    }
+
+    .sedan {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .luxury {
+        border-radius: 0 10px 10px 0;
+    }
+
+    p {
+        margin-bottom: 5rem;
+    }
+
+    button:hover {
+        border: 2px solid hsl(0, 0%, 95%);
+        background-color: transparent;
+        color: hsl(0, 0%, 95%);
+        cursor: pointer;
+        transition-duration: 0.2s;
+    }
+}
